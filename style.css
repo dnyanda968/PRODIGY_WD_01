@@ -1,0 +1,45 @@
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+    transition: background-color 0.5s ease;
+  }
+  
+  #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav li {
+    margin-right: 20px;
+  }
+  
+  #nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s ease;
+  }
+  
+  #nav a:hover {
+    color: #ccc;
+  }
+  
+  #nav.scrolled {
+    background-color: #444;
+  }
+  
+  #nav.scrolled a {
+    color: #aaa;
+  }
+  
+  #nav.hovered a:hover {
+    color: #fff;
+  }
+  
